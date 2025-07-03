@@ -1,0 +1,130 @@
+/* @keyframes hueShift {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+.animated-bg {
+  background: linear-gradient(to right top, #0f2027, #203a43, #62306f);
+  animation: hueShift 10s linear infinite;
+} */
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    background:linear-gradient(to right top, #000000, #000000,  #00d4ff);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    max-width: 900px;
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+}
+
+.gradient-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #00d4ff, #00ffaa, #00d4ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    color: #ccc;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.6;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.primary {
+    background: #00d4ff;
+    color: black;
+    border: none;
+}
+
+.primary:hover {
+    background: #00ffaa;
+}
+
+.outline {
+    background: transparent;
+    border: 2px solid #00d4ff;
+    color: #00d4ff;
+}
+
+.outline:hover {
+    background: #00d4ff;
+    color: black;
+}
+
+.social-icons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.social-icons a {
+    color: #00d4ff;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.3);
+    color: #00ffaa;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-delay {
+    animation: fadeIn 1s ease-in 0.5s forwards;
+    opacity: 0;
+}
+
+.slide-in-bottom {
+    animation: fadeIn 1s ease-in 1s forwards;
+    opacity: 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .gradient-heading {
+        font-size: 2.2rem;
+    }
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+}

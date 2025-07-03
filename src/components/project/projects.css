@@ -1,0 +1,33 @@
+.projects-section {
+  padding: 4rem 2rem;
+  text-align: center;
+   /* background-color: #0a0a0a; */
+   background: radial-gradient(125% 125% at 50% 0%, #020617 50%, #19c7b8);
+  color: white;
+}
+
+.projects-badge {
+  display: inline-block;
+  background: #1e293b;
+  color: #7dd3fc;
+  padding: 0.3rem 1rem;
+  border-radius: 999px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.projects-title {
+ font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  border-bottom: 4px solid #3b82f6;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3,  1fr);
+  gap: 2rem;
+}

@@ -1,0 +1,11 @@
+.cursor-blob {
+  position: fixed;
+  pointer-events: none;
+  z-index: 0;
+  border-radius: 50%;
+  /* filter: blur(50px); */
+  opacity: 0.6;
+  transform: scale(1);
+  transition: all 0.7s ease-out;
+  mix-blend-mode: screen;
+}
