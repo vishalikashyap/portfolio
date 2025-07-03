@@ -2,7 +2,7 @@
   position: fixed;
   pointer-events: none;
   z-index: 0;
-  border-radius: 50%;
+  /* border-radius: 20%; */
   /* filter: blur(50px); */
   opacity: 0.6;
   transform: scale(1);
