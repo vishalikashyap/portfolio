@@ -23,7 +23,7 @@ const Projects = () => {
           status="In Progress"
            techStack={["Angular19","node.js", "TailwindCSS", "express.js","MySql", "Stripe"]}
           codeLink="https://github.com/vishalikashyap/angular19Project"
-  liveLink="https://ecommerce-demo.vercel.app"
+          liveLink="https://ecommerce-demo.vercel.app"
 
         />
         <ProjectCard
@@ -43,9 +43,9 @@ const Projects = () => {
           description="Responsive React portfolio showcasing my skills and recent work."
           date="30 June 2025"
           status="Completed"
-           techStack={["React.js","css"]}
-          codeLink="https://github.com/vishalikashyap/ecommerce"
-  liveLink="https://ecommerce-demo.vercel.app"
+          techStack={["React.js","css"]}
+          codeLink="https://github.com/vishalikashyap/portfolio"
+          liveLink="https://ecommerce-demo.vercel.app"
 
         />
         <ProjectCard
