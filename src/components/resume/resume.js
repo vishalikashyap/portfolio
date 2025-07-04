@@ -27,7 +27,7 @@ const Resume = () => {
           rel="noopener noreferrer"
           className="btn resume-download btn_bg"
         >
-          <FaEye className="icon-left" /> View Resume
+          <FaEye className="icon-left" /> View Online
         </a>
 
         {/* Download Resume */}
@@ -36,7 +36,7 @@ const Resume = () => {
           download
           className="btn resume-download"
         >
-          <FaDownload className="icon-left" /> Download Resume
+          <FaDownload className="icon-left" /> Download CV(.pdf)
         </a>
       </motion.div>
     </section>
