@@ -1,10 +1,10 @@
 import React from "react";
 import './skills.css';
 import {
-  FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaJava, FaGitAlt, FaFigma, FaDocker,
+  FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, FaFigma, FaDocker,
   FaPooStorm
 } from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiAngular, SiTailwindcss, SiMongodb, SiMysql, SiMariadb, SiPrisma, SiExpress, SiPython, SiNextdotjs, SiBootstrap, SiPostman } from 'react-icons/si';
+import { SiJavascript, SiTypescript, SiAngular, SiTailwindcss, SiMongodb, SiMysql, SiExpress, SiNextdotjs, SiPostman } from 'react-icons/si';
 
 const Skills = () => {
  return (
