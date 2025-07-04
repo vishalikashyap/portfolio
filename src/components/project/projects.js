@@ -67,7 +67,7 @@ const Projects = () => {
           status="Completed"
           techStack={["Angular19","node.js", "TailwindCSS", "express.js","MySql", "Stripe"]}
           codeLink="https://github.com/vishalikashyap/sendingLove"
-          liveLink="https://ecommerce-demo.vercel.app"
+          liveLink="https://sending-love.vercel.app/auth/login"
 
         />
       </div>
