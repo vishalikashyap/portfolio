@@ -45,7 +45,7 @@ const Projects = () => {
           status="Completed"
           techStack={["React.js","css"]}
           codeLink="https://github.com/vishalikashyap/portfolio"
-          liveLink="https://ecommerce-demo.vercel.app"
+          liveLink="https://portfolio-kohl-nu-92.vercel.app/"
 
         />
         <ProjectCard
