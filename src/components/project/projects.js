@@ -23,7 +23,7 @@ const Projects = () => {
           status="In Progress"
            techStack={["Angular19","node.js", "TailwindCSS", "express.js","MySql", "Stripe"]}
           codeLink="https://github.com/vishalikashyap/angular19Project"
-          liveLink="https://ecommerce-demo.vercel.app"
+          liveLink="https://angular19-project-blond.vercel.app/"
 
         />
         <ProjectCard
@@ -34,7 +34,7 @@ const Projects = () => {
           status="In Progress"
           techStack={["Angular19","node.js", "TailwindCSS", "express.js","MySql", "Stripe"]}
           codeLink="https://github.com/vishalikashyap/realTimeChat"
-          liveLink="https://ecommerce-demo.vercel.app"
+          liveLink="https://angular19-project-blond.vercel.app/"
 
         />
         <ProjectCard
