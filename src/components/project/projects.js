@@ -56,7 +56,7 @@ const Projects = () => {
           status="In Progress"
           techStack={["React.js","css"]}
           codeLink="https://github.com/vishalikashyap/ecommerce"
-          liveLink="https://ecommerce-demo.vercel.app"
+          liveLink="https://angular19-project-blond.vercel.app/"
 
         />
         <ProjectCard
